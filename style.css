@@ -28,8 +28,8 @@
 }
 .doge {
   border-radius: 50%;
-  object-fit: cover;
-  object-position: top;
+/*object-fit: cover; There was a very purposeful design choice making the dog's profile photo look smushed, it's funnier that way.
+  object-position: top;*/
   object-fit: fill;
   height: 40px;
   width: 40px;
@@ -105,6 +105,7 @@
   display:inline-block;
   background-color: #ededed;
   color: blue;
+  border-radius: 3px;
   padding: 15px;
 }
 .snoot{
@@ -113,6 +114,7 @@
   background-color: #ededed;
   color: blue;
   padding: 15px;
+  border-radius: 3px;
 }
 
 body{
@@ -152,7 +154,11 @@ p{
   height: 200px;
   width: 200px;
   display:inline-block;
-  vertical-align: middle;}
+  vertical-align: middle;
+  margin:0% 1%;
+  border: #535353 2px solid;
+  box-shadow: 2px 1px 5px;
+}
 .mixer{
   border-radius: 35%;
   object-fit: fill;
@@ -160,6 +166,9 @@ p{
   width: 200px;
   display:inline-block;
   vertical-align: middle;
+  margin:0% 1%;
+  border: #535353 2px solid;
+  box-shadow: 2px 1px 5px;
 }
 .operator {
   border-radius: 35%;
@@ -168,6 +177,9 @@ p{
   width: 200px;
   display:inline-block;
   vertical-align: middle;
+  margin:0% 1%;
+  border: #535353 2px solid;
+  box-shadow: 2px 1px 5px;
 }
 .tall {
   border-radius: 35%;
@@ -175,4 +187,7 @@ p{
   width: 200px;
   display:inline-block;
   vertical-align: middle;
+  margin:0% 1%;
+  border: #535353 2px solid;
+  box-shadow: 2px 1px 5px;
 }
