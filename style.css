@@ -25,7 +25,6 @@
   display:inline-block;
   color: white;
   margin: 0% 5% 0% 5%;
-
 }
 .doge {
   border-radius: 50%;
@@ -37,12 +36,27 @@
   display:inline-block;
   vertical-align: middle;
   margin: 0% 10% 0% 5%;
+/*  position: relative; */
 }
+/* I couldn't get the dropdown menu to work so I'm leaving the code inactive
+.doge:hover .dropdown {
+  display: block;
+}
+.dropdown{
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px black;
+  padding: 10px 18px;
+  z-index: 1;
+}
+*/
 
 
 .mainstuff{
   display: block;
-  margin: 20% 10% 2% 10%;
+  margin: 15% 10% 2% 10%;
 }
 .title{
   text-align: center;
@@ -122,4 +136,43 @@ h1{
 p{
   color: #949494;
   font-family:sans-serif;
+}
+
+/* Error page specific */
+.errorMain{
+  margin: 5% 0%;
+  text-align: center;
+}
+.doggos{
+  margin-top:5%;
+}
+.foreman{
+  border-radius: 35%;
+  object-fit: fill;
+  height: 200px;
+  width: 200px;
+  display:inline-block;
+  vertical-align: middle;}
+.mixer{
+  border-radius: 35%;
+  object-fit: fill;
+  height: 200px;
+  width: 200px;
+  display:inline-block;
+  vertical-align: middle;
+}
+.operator {
+  border-radius: 35%;
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+  display:inline-block;
+  vertical-align: middle;
+}
+.tall {
+  border-radius: 35%;
+  height: 200px;
+  width: 200px;
+  display:inline-block;
+  vertical-align: middle;
 }
